@@ -12,6 +12,11 @@
 
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
+        <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+    <script>
+  vkBridge.send("VKWebAppInit", {});
+</script>
+    
     <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #E3DFDA"></canvas>
     <script src="Build/New folder.loader.js"></script>
     <script>
